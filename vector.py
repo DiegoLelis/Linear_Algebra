@@ -21,6 +21,9 @@ class Vector(object):
     def __eq__(self, v):
         return self.coordinates == v.coordinates
 
+    def __add__(self, v):
+
+    # TODO: Make graphical example of vectors operations
 if __name__ == '__main__':
     my_vector = Vector([1,2,3])
     my_vector_2 = Vector([1,2,3])
